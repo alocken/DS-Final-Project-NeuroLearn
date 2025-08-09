@@ -2,9 +2,11 @@
 Deep learning image recognition model that analyzes MRI scans to detect/classify brain conditions using learned image features. 
 
 # Project Scope
-Focus on one type of brain condition to build a targeted model for. Focus will look at building a model to identify when an image is a brain glioma in a Basic Color Map dataset versus another brain condition. The images will include both brain glioma and other types of brain conditions (specifically brain meningioma). 
+Focus on two types of brain conditions to build a targeted model for. Focus will look at building a model to identify when an image is a brain glioma in a Basic Color Map dataset versus a brain meningioma (another brain condition). The images will include both brain conditions.
 
 Brain glioma refers to a type of tumor that originates in the glial cells of the brain, which provide support and protection to neurons. Gliomas are often aggressive and can occur in various parts of the brain, leading to symptoms like headaches, seizures, and cognitive impairments.
+
+A brain meningioma is a typically benign, slow-growing tumor that arises from the meninges which are the protective membranes covering the brain and spinal cord.
 
 # Dataset
 ## Brain Cancer MRI Colorized Dataset
@@ -14,8 +16,7 @@ Brain glioma refers to a type of tumor that originates in the glial cells of the
 ## Basic Color Map
 Applies a standard color palette (like Jet or Viridis) to grayscale data. Different intensities are mapped to different colors, enhancing the visual discrimination of anatomical or pathological regions in the image.
 
-
-### Citation (Raw Data Source): 
+#### Citation (Raw Data Source): 
 Rahman, Md Mizanur (2024), “Brain Cancer - MRI dataset”, Mendeley Data, V1, doi: 10.17632/mk56jw9rns.1 https://data.mendeley.com/datasets/mk56jw9rns/1
 
 # Model Development 
@@ -63,10 +64,10 @@ Misclassifications:
 The confusion matrix is very symmetric, meaning the model is equally likely to misclassify either class.
 
 ## Key Takeaways
-- Model achieves solid performance (≈86%) in classifying two brain tumor types from images.
-- Balanced precision, recall, and F1-score indicate no class bias.
-- Low misclassification rate, and no sign of overfitting.
-- Could be improved with data augmentation, hyperparameter tuning, or more complex architectures if needed.
+- Model achieves solid performance (~86%) in classifying two brain tumor types from images
+- Balanced precision, recall, and F1-score indicate no class bias
+- Low misclassification rate, and no sign of overfitting
+- Could be improved with data augmentation, hyperparameter tuning, or more complex architectures as needed
 
 
 
