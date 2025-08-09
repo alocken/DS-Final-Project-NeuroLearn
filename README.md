@@ -9,15 +9,14 @@ Brain glioma refers to a type of tumor that originates in the glial cells of the
 # Dataset
 ## Brain Cancer MRI Colorized Dataset
 - https://www.kaggle.com/datasets/shuvokumarbasakbd/brain-cancer-mri-colorized-dataset/data 
-- focus: Brain Glioma - Basic Color Map (2004 files)
+- Focus: Brain Glioma - Basic Color Map (2004 files), Brain Meningioma - Basic Color Map (2004 files)
 
 ## Basic Color Map
 Applies a standard color palette (like Jet or Viridis) to grayscale data. Different intensities are mapped to different colors, enhancing the visual discrimination of anatomical or pathological regions in the image.
 
 
-### Citation (Raw Data Source):
-Rahman, Md Mizanur (2024), “Brain Cancer - MRI dataset”, Mendeley Data, V1, doi: 10.17632/mk56jw9rns.1
-https://data.mendeley.com/datasets/mk56jw9rns/1
+### Citation (Raw Data Source): 
+Rahman, Md Mizanur (2024), “Brain Cancer - MRI dataset”, Mendeley Data, V1, doi: 10.17632/mk56jw9rns.1 https://data.mendeley.com/datasets/mk56jw9rns/1
 
 # Model Development 
 - Normalized image pixel values and compelte train/test('validation') split in preparation for deep learning image recognition model use
@@ -40,11 +39,11 @@ Two classes were evaluated:
 - Glioma - Basic_Color_Map
 - Meningioma - Basic_Color_Map
 
-- Metric	    Glioma	Meningioma
+Metric	    Glioma	Meningioma
 - Precision	0.86	0.86
-- Recall	    0.86	0.86
+- Recall	0.86	0.86
 - F1-Score	0.86	0.86
-- Support	    400	    400
+- Support	400	    400
 
 Macro Average: 0.86 across all metrics (treats all classes equally).
 
