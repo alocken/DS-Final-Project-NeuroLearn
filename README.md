@@ -19,11 +19,11 @@ Applies a standard color palette (like Jet or Viridis) to grayscale data. Differ
 Rahman, Md Mizanur (2024), “Brain Cancer - MRI dataset”, Mendeley Data, V1, doi: 10.17632/mk56jw9rns.1 https://data.mendeley.com/datasets/mk56jw9rns/1
 
 # Model Development 
-- Normalized image pixel values and compelte train/test('validation') split in preparation for deep learning image recognition model use
-- Developed model architecture - build Convolutional Neural Network (CNN) model using TensorFlow Keras. Specifically, using tf.keras.Sequential which is a standar API in TensorFlow for building deep learning image recognition models. CNN is suited for image classification tasks and is a classic deep learning architecture for image recognition.
-- Compiled the model - specify the optimzer, loss, and metrics
+- Normalized image pixel values and completed train/test('validation') split in preparation for deep learning image recognition model use
+- Developed model architecture - built Convolutional Neural Network (CNN) model using TensorFlow Keras. Specifically, using tf.keras.Sequential which is a standard API in TensorFlow for building deep learning image recognition models. CNN is suited for image classification tasks and is a classic deep learning architecture for image recognition.
+- Compiled the model - specified the optimizer, loss, and metrics
 - Trained the model - fit model using model.fit()
-- Evaluted and visualized - evaluate the performance of the model on test data
+- Evaluated and visualized - evaluated the performance of the model on test data
 
 
 # Model Performance and Final Summary 
@@ -39,11 +39,11 @@ Two classes were evaluated:
 - Glioma - Basic_Color_Map
 - Meningioma - Basic_Color_Map
 
-Metric	    Glioma	Meningioma
-- Precision	0.86	0.86
-- Recall	0.86	0.86
-- F1-Score	0.86	0.86
-- Support	400	    400
+Metric, Glioma, Meningioma:
+- Precision, 0.86, 0.86
+- Recall, 0.86,	0.86
+- F1-Score,	0.86, 0.86
+- Support, 400, 400
 
 Macro Average: 0.86 across all metrics (treats all classes equally).
 
