@@ -5,7 +5,7 @@ Deep learning image recognition model that analyzes MRI scans to detect/classify
 Focus on one type of brain condition to build a targeted model for. Focus will look at building a model to identify when an image is a brain glioma in a Basic Color Map dataset versus another brain condition. The images will include both brain glioma and other types of brain conditions (specifically brain meningioma). 
 Brain glioma refers to a type of tumor that originates in the glial cells of the brain, which provide support and protection to neurons. Gliomas are often aggressive and can occur in various parts of the brain, leading to symptoms like headaches, seizures, and cognitive impairments.
 
-# Datset
+# Dataset
 Brain Cancer MRI Colorized Dataset
 https://www.kaggle.com/datasets/shuvokumarbasakbd/brain-cancer-mri-colorized-dataset/data 
 focus: Brain Glioma - Basic Color Map (2004 files)
@@ -27,13 +27,13 @@ Evaluted and visualized - evaluate the performance of the model on test data
 
 
 # Model Performance and Final Summary 
-Summary of the outputs of model
+## Summary Model Outputs
 Overall Performance 
 Training Accuracy: 85.33%
 Test Accuracy: 85.87%
 Indicates a consistent performance between training and testing, suggesting low overfitting.
 
-Classifciation Report Summary 
+## Classification Report Summary 
 Two classes were evaluated:
 Glioma - Basic_Color_Map
 Meningioma - Basic_Color_Map
@@ -48,7 +48,7 @@ Macro Average: 0.86 across all metrics (treats all classes equally).
 Weighted Average: 0.86 (accounts for class imbalance, which seems minimal here).
 This indicates balanced model performance across both tumor types.
 
-Confusion Matrix Interpretation
+## Confusion Matrix Interpretation
 Correct predictions:
 343 Glioma correctly classified
 344 Meningioma correctly classified
@@ -59,7 +59,7 @@ Misclassifications:
 
 The confusion matrix is very symmetric, meaning the model is equally likely to misclassify either class.
 
-Key Takeaways
+## Key Takeaways
 Model achieves solid performance (≈86%) in classifying two brain tumor types from images.
 Balanced precision, recall, and F1-score indicate no class bias.
 Low misclassification rate, and no sign of overfitting.
